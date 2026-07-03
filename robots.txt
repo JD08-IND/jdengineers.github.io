@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap:https://jdengineers-github-io.vercel.app/sitemap.xml
