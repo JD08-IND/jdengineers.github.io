@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JD Engineering & Industrial Solutions | Industrial Projects & Machinery Solutions Raipur</title>
+<meta name="description" content="Raipur me industrial projects & machinery solutions. Steel trading, boiler spare parts, tubes & pipes, NDT testing aur industrial quality services. Contact JD Engineering & Industrial Solutions.">
+<meta name="keywords" content="industrial projects raipur, machinery solutions raipur, steel trading raipur, boiler spare parts, tubes and pipes supplier, NDT testing services, industrial quality services, JD Engineering">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Basic Reset and Styling */
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+color: #333;
+background-color: #f8f9fa;
+}
+html {
+scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+header {
+background: #1a252c;
+padding: 1rem 0;
+position: sticky;
+top: 0;
+z-index: 100;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: auto;
+padding: 0 20px;
+}
+.logo {
+color: #ffffff;
+font-size: 1.5rem;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.logo span {
+color: #ff6b6b;
+}
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+nav ul li {
+margin-left: 20px;
+}
+nav ul li a {
+text-decoration: none;
+color: #e2e8f0;
+font-weight: 600;
+transition: color 0.3s ease;
+}
+nav ul li a:hover {
+color: #ff6b6b;
+}
+
+/* Hero Section */
+.hero {
+background-color: #2c3e50;
+background-image: linear-gradient(rgba(26, 37, 44, 0.85), rgba(26, 37, 44, 0.85));
+height: 70vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 0 20px;
+color: white;
+}
+.hero h1 {
+font-size: 3.5rem;
+margin-bottom: 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.hero p {
+font-size: 1.2rem;
+max-width: 800px;
+margin-bottom: 30px;
+color: #cbd5e1;
+}
+.btn {
+display: inline-block;
+background: #ff6b6b;
+color: #fff;
+padding: 12px 30px;
+text-decoration: none;
+border-radius: 3px;
+font-weight: bold;
+text-transform: uppercase;
+transition: background 0.3s;
+}
+.btn:hover {
+background: #e25555;
+}
+
+
+/* General Section Styling */
+section {
+padding: 5rem 20px;
+max-width: 1200px;
+margin: auto;
+}
+.section-title {
+text-align: center;
+font-size: 2.2rem;
+color: #1a252c;
+margin-bottom: 2.5rem;
+text-transform: uppercase;
+border-bottom: 3px solid #ff6b6b;
+display: inline-block;
+padding-bottom: 10px;
+}
+.center-text {
+text-align: center;
+}
+
+
+/* About Section */
+#about p {
+font-size: 1.1rem;
+color: #555;
+max-width: 900px;
+margin: auto;
+line-height: 1.8;
+}
+
+
+/* Products & Services Grid */
+.services-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-between;
+}
+.service-card {
+background: #fff;
+flex: 1 1 calc(25% - 20px);
+min-width: 250px;
+padding: 2.5rem 2rem;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+border-top: 4px solid #2c3e50;
+text-align: center;
+transition: transform 0.3s ease;
+}
+.service-card:hover {
+transform: translateY(-5px);
+border-top: 4px solid #ff6b6b;
+}
+.service-card h3 {
+color: #1a252c;
+margin-bottom: 15px;
+font-size: 1.4rem;
+}
+.service-card p {
+color: #666;
+font-size: 1rem;
+}
+
+
+/* Contact Section */
+.contact-container {
+max-width: 700px;
+margin: 0 auto;
+background: #fff;
+padding: 3rem;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+border-radius: 8px;
+text-align: left;
+}
+.contact-info {
+display: flex;
+align-items: flex-start;
+margin-bottom: 1.5rem;
+}
+.contact-info h4 {
+margin: 0;
+color: #1a252c;
+width: 120px;
+font-size: 1.1rem;
+flex-shrink: 0;
+}
+.contact-info p {
+margin: 0;
+color: #555;
+font-size: 1.1rem;
+}
+
+
+/* Footer */
+footer {
+background: #1a252c;
+color: #cbd5e1;
+text-align: center;
+padding: 2rem 20px;
+margin-top: 2rem;
+border-top: 1px solid #334155;
+}
+</style>
+</head>
+<body>
+
+
+<!-- Header & Navigation -->
+<header>
+<nav>
+<div class="logo"><span>JD</span> Engineering</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+
+<!-- Hero/Home Section -->
+<section id="home" class="hero">
+<h1>Complete Industrial Solutions</h1>
+<p>Your trusted steel trading partner serving power plants and the heavy steel industry with premium quality materials, boiler spares, and industrial services.</p>
+<a href="#contact" class="btn">Get in Touch</a>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="center-text">
+<h2 class="section-title">About Our Company</h2>
+<p><strong>JD Engineering & Industrial Solutions</strong> is a complete steel trading company and industrial service provider dedicated to serving the backbone of global infrastructure: power plants and steel industries. We provide comprehensive, end-to-end solutions, delivering top-tier structural steel products, precision boiler spares, and specialized industrial-based quality services designed to keep your operations running safely and at peak efficiency.</p>
+</section>
+
+
+<!-- Products & Services Section -->
+<section id="products" style="background-color: #f1f5f9; max-width: 100%;">
+<div style="max-width: 1200px; margin: auto;">
+<div class="center-text">
+<h2 class="section-title">Our Products & Services</h2>
+</div>
+<div class="services-grid">
+<div class="service-card">
+<h3>Structural Steel</h3>
+<p>Premium quality TMT bars, Channels, and Beams engineered for heavy industrial requirements and infrastructure development.</p>
+</div>
+<div class="service-card">
+<h3>Tubes & Pipes</h3>
+<p>Durable, high-grade industrial tubes designed to withstand extreme pressure and rigorous power plant environments.</p>
+</div>
+<div class="service-card">
+<h3>Boiler Spares</h3>
+<p>A complete range of authentic, high-quality boiler parts ensuring uninterrupted and safe operations for thermal power plants.</p>
+</div>
+<div class="service-card">
+<h3>Industrial Services</h3>
+<p>Expert industrial-based quality services and maintenance support tailored specifically to heavy manufacturing facilities.</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+<div class="center-text">
+<h2 class="section-title">Contact Us</h2>
+<p style="margin-bottom: 2rem; color: #555; font-size: 1.1rem;">Ready to discuss your industrial requirements? Get in touch with our team today.</p>
+</div>
+<div class="contact-container">
+<div class="contact-info">
+<h4>📍 Address:</h4>
+<p>27/223, New Shanti Nagar,<br>Raipur (C.G) 492001</p>
+</div>
+<div class="contact-info">
+<h4>📞 Phone:</h4>
+<p>+91 9232590674</p>
+</div>
+<div class="contact-info">
+<h4>✉️ Email:</h4>
+<p><a href="mailto:jdengineers08@gmail.com" style="color: #ff6b6b; text-decoration: none;">jdengineers08@gmail.com</a></p>
+</div>
+<div class="contact-info">
+<h4>🏢 GST No:</h4>
+<p><strong>22GYJPD5126B1ZZ</strong></p>
+</div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+<p>&copy; 2026 JD Engineering & Industrial Solutions. All rights reserved.</p>
+<p style="font-size: 0.9rem; margin-top: 10px; color: #94a3b8;">GSTIN: 22GYJPD5126B1ZZ</p>
+</footer>
+
+
+</body>
+</html>
