@@ -1,82 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JD Engineering & Industrial Solutions</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD Engineers - Trading & Supplier - Complete Industrial Solutions | Raipur</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-body{background:#f8fafc;color:#0f172a}
-header{background:#0f172a;color:white;padding:15px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000}
-header h1{font-size:22px;font-weight:800} header h1 span{color:#facc15}
-nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600;font-size:14px}
-.hero{background:linear-gradient(105deg,#0f172a 0%,#1e3a8a 100%);color:white;padding:70px 6%;display:flex;flex-wrap:wrap;align-items:center;gap:40px}
-.hero-text{flex:1;min-width:300px} .hero-text h2{font-size:42px;line-height:1.1;font-weight:800} .hero-text h2 span{color:#facc15}
-.tagline{margin-top:15px;font-size:19px;color:#facc15;font-weight:700;border-left:4px solid #facc15;padding-left:12px}
-.sub{margin-top:15px;color:#cbd5e1;line-height:1.6}
-.btn{display:inline-block;margin-top:25px;background:#facc15;color:#0f172a;padding:12px 28px;border-radius:8px;font-weight:800;text-decoration:none}
-.hero-img{flex:1;min-width:300px} .hero-img img{width:100%;border-radius:16px}
-section{padding:60px 6%}
-.sec-title{text-align:center;margin-bottom:40px} .sec-title h2{font-size:32px;font-weight:800} .sec-title p{color:#64748b}
-.about{background:white;border-radius:20px;padding:40px;box-shadow:0 10px 30px rgba(0,0,0,.05);line-height:1.9;color:#334155}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-.card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.07);border-top:4px solid #facc15;transition:.3s}
-.card:hover{transform:translateY(-5px)} .card img{width:100%;height:190px;object-fit:cover}
-.card-body{padding:18px} .card-body h4{font-size:16px} .card-body p{color:#64748b;font-size:13px;margin-top:5px;line-height:1.5}
-.contact{background:#0f172a;color:white;border-radius:20px;padding:40px;text-align:center}
-.contact a{color:#facc15;text-decoration:none;font-weight:700}
-footer{text-align:center;padding:20px;color:#94a3b8;font-size:13px;line-height:1.6}
+body{margin:0;font-family:Arial, sans-serif;line-height:1.6;color:#222;background:#fff}
+.topbar{background:#0b2e5c;color:#fff;padding:10px 5%;display:flex;justify-content:space-between;flex-wrap:wrap;font-size:14px}
+.hero{position:relative;height:520px;background:#000;overflow:hidden}
+.hero img{width:100%;height:100%;object-fit:cover;opacity:0.85}
+.hero-text{position:absolute;top:50%;left:5%;transform:translateY(-50%);color:#fff;max-width:700px;background:rgba(0,0,0,0.45);padding:20px;border-radius:8px}
+.hero-text h1{font-size:44px;margin:0;line-height:1.1}
+.hero-text h1 span{color:#4da6ff}
+.hero-text h2{font-size:22px;margin:8px 0;color:#ffcc33}
+.btn{background:#ff9800;color:#fff;padding:13px 28px;text-decoration:none;border-radius:6px;display:inline-block;font-weight:bold;margin-top:12px}
+.section{padding:55px 5%}
+.section h2{text-align:center;color:#0b2e5c;font-size:33px;margin:0}
+.section .sub{text-align:center;color:#666;margin:8px 0 35px;font-size:16px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.card{border:1px solid #ddd;border-radius:10px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,0.08);background:#fff}
+.card img{width:100%;height:210px;object-fit:cover}
+.card-body{padding:14px 15px}
+.card-body h3{margin:0 0 6px;color:#0b2e5c;font-size:18px}
+.card-body p{font-size:13.5px;color:#555;margin:0}
+.about{background:#f4f7fb}
+.about p.long{max-width:1000px;margin:20px auto 0;text-align:justify;font-size:15.5px;line-height:1.8}
+.contact{background:#0b2e5c;color:#fff;padding:45px 5%;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.contact a{color:#ffcc00;text-decoration:none;font-weight:bold}
+.contact h3{margin-top:0;color:#ffcc33}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:14px 22px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.3);z-index:999}
+.badge{display:inline-block;background:#e8f0fe;color:#0b2e5c;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:bold;margin-bottom:6px}
 </style>
 </head>
 <body>
-<header><h1>JD <span>ENGINEERING</span></h1><nav><a href="#about">About</a><a href="#boiler">Boiler Parts</a><a href="#steel">Products</a><a href="#contact">Contact</a></nav></header>
+
+<div class="topbar">
+<div><strong>JD ENGINEERS</strong> - Trading & Supplier - Complete Industrial Solutions | GST: 22GYJPD5126B1ZZ</div>
+<div>📞 9232590674 | ✉️ jdengineers08@gmail.com</div>
+</div>
 
 <div class="hero">
+<img src="hero.jpg" alt="JD Engineers">
 <div class="hero-text">
-<h2>Complete Industrial<br><span>Solutions</span></h2>
-<p class="tagline">Engineered for Strength, Tested for Safety.</p>
-<p class="sub">One-stop partner for Boiler Pressure Parts, Structural Steel, Tubes & Pipes & NDT Services.</p>
-<a class="btn" href="https://wa.me/919232590674?text=Hi%20JD%20Engineering,%20I%20need%20Quotation%20for%20...">Get Enquiry on WhatsApp →</a>
+<h1>JD <span>ENGINEERS</span></h1>
+<h2>Complete Industrial Solutions</h2>
+<p><strong>Trading & Supplier</strong> of Boiler Pressure Parts & Spares, Structural Steel, Tubes & Pipes and Industrial NDT Services. Raipur, Chhattisgarh.</p>
+<a href="https://wa.me/919232590674?text=Hello%20JD%20Engineers%2C%20I%20need%20quotation" class="btn">Get Quotation on WhatsApp</a>
 </div>
-<div class="hero-img"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800"></div>
 </div>
 
-<section id="about"><div class="sec-title"><h2>About Us</h2></div>
-<div class="about"><h3>JD Engineering & Industrial Solutions</h3>
-<p><strong>JD Engineering & Industrial Solutions</strong> is a Raipur-based enterprise driven by a single mission — to deliver <strong>Complete Industrial Solutions under one roof.</strong> Born in the heart of India's steel city, we understand what an industry truly needs: Strength that never fails and Safety that never compromises. That's why our tagline is our promise — <strong>Engineered for Strength, Tested for Safety.</strong><br><br>
-We are not just traders, we are industrial problem solvers. From critical <strong>Boiler Pressure Parts & Spares, Power Plant Maintenance</strong> to a wide range of <strong>MS & SS Steel – Pipes, Plates, Rods, Angles</strong>, we supply everything that keeps your plant running. We are a <strong>Certified NDT Level-II Inspection Service Provider (UT, RT, MPT, DPT)</strong>, ensuring every job is tested and certified for quality.<br><br>
-With deep roots in Raipur, Chhattisgarh and a growing network across Central India, we serve Power Plants, Steel Plants, Fabrication Units with <strong>Genuine Material, On-Time Delivery, and Transparent Dealing.</strong></p>
-</div></section>
-
-<section id="boiler" style="background:#eef2ff"><div class="sec-title"><h2>Boiler Pressure Parts & Spares</h2><p>Core Expertise - Pressure Parts</p></div>
-<div class="grid">
-<div class="card"><img src="economiser.jpg" onerror="this.src='https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=500'"><div class="card-body"><h4>Economiser Coils</h4><p>Finned Tube Coils – High Efficiency Heat Recovery.</p></div></div>
-<div class="card"><img src="superheater.jpg" onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=500'"><div class="card-body"><h4>Superheater Coils</h4><p>Primary & Secondary – T11, T22, T91 Alloy Steel.</p></div></div>
-<div class="card"><img src="evaporator.jpg"><div class="card-body"><h4>Evaporator Coils</h4><p>Bed Coils for AFBC / CFBC Boilers – Custom Built.</p></div></div>
-<div class="card"><img src="waterwall.jpg"><div class="card-body"><h4>Water Wall Panels</h4><p>Membrane Type Panels – Fin Welded.</p></div></div>
-<div class="card"><img src="header.jpg"><div class="card-body"><h4>Boiler Headers</h4><p>Steam, Water Wall, Economiser & Superheater Headers.</p></div></div>
-</div></section>
-
-<section id="steel"><div class="sec-title"><h2>Complete Industrial Range</h2><p>Structural Steel, Pipes & Quality Services</p></div>
-<div class="grid">
-<div class="card"><img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=500"><div class="card-body"><h4>🏗️ Structural Steel</h4><p>MS Angles, Channels, Beams, Plates – All Sections Available.</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=500"><div class="card-body"><h4>🔩 Tubes & Pipes (MS & SS)</h4><p>Seamless & ERW Pipes, Boiler Tubes, Hollow Sections.</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=500"><div class="card-body"><h4>🔍 Industrial Quality Services (NDT)</h4><p>Certified NDT Level-II – UT, RT, MPT, DPT – Third Party Inspection.</p></div></div>
-</div></section>
-
-<section id="contact"><div class="contact">
-<h2 style="font-size:28px">Contact Us Today</h2>
-<p style="margin-top:8px;color:#cbd5e1">Get Best Price & Fast Delivery in Raipur</p>
-<div style="margin-top:25px;line-height:2.4;font-size:15px">
-<p>📍 Raipur, Chhattisgarh (Pan India Supply)</p>
-<p>📞 Phone: <a href="tel:+919232590674">+91 9232590674</a></p>
-<p>✉️ Email: <a href="mailto:jdengineers08@gmail.com">jdengineers08@gmail.com</a></p>
-<p>🧾 GST No: 22GYJPD5126B1ZZ</p>
+<div class="section about">
+<h2>About JD Engineers - Complete Industrial Solutions</h2>
+<p class="sub">Trusted Trading & Supply Partner</p>
+<p class="long">
+<strong>JD Engineers</strong>, located at <strong>27/223, New Shanti Nagar, Street No: 1-C, Raipur (C.G) 492001</strong>, is a professionally managed <strong>Trading & Supplier</strong> firm offering <strong>Complete Industrial Solutions</strong>. We deal in <strong>Boiler Pressure Parts & Spares - Economiser, Superheater, Water Wall Panel, Boiler Header, Evaporator, Boiler Tubes</strong> and <strong>Structural Steel - MS Angles, Channels, Beams, Plates</strong> and <strong>Tubes & Pipes - MS/SS, Seamless, ERW, IBR & Non-IBR</strong>. We also facilitate <strong>Industrial Quality Services - NDT (DPT, MPT, RT, UT)</strong> through certified Level-II technicians. With quality-first approach, competitive pricing and timely delivery, we serve power plants & heavy industries across India.
+</p>
 </div>
-<a class="btn" href="https://wa.me/919232590674?text=Hello%20JD%20Engineering%20%26%20Industrial%20Solutions,%20I%20want%20Quotation%20for%20Boiler%20Pressure%20Parts%20/%20Steel%20/%20NDT%20Services.%20Please%20share%20your%20best%20price." style="margin-top:25px">Get Enquiry & Quotation on WhatsApp</a>
-<p style="margin-top:15px;color:#94a3b8;font-size:12px">Click to chat directly - Fast Response</p>
-</div></section>
 
-<footer>© 2026 JD Engineering & Industrial Solutions<br>GST: 22GYJPD5126B1ZZ | Phone: 9232590674 | Email: jdengineers08@gmail.com<br>Complete Industrial Solutions. Engineered for Strength, Tested for Safety.</footer>
+<div class="section">
+<h2>Boiler Pressure Parts & Spares</h2>
+<p class="sub">Complete Industrial Solutions - IBR Compliant - Trading & Supply</p>
+<div class="products">
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="economiser.jpg"><div class="card-body"><h3>Economiser</h3><p>Trading & supply of finned & bare tube economiser.</p></div></div>
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="superheater.jpg"><div class="card-body"><h3>Superheater</h3><p>Primary, secondary & platen superheater coils trading.</p></div></div>
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="waterwall.jpg"><div class="card-body"><h3>Water Wall Panel</h3><p>Membrane & fin welded water wall panels trading.</p></div></div>
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="header.jpg"><div class="card-body"><h3>Boiler Header</h3><p>Superheater, economiser & water wall headers trading.</p></div></div>
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="evaporator.jpg"><div class="card-body"><h3>Evaporator</h3><p>Evaporator coils & modules trading.</p></div></div>
+<div class="card"><span class="badge">Complete Industrial Solutions</span><img src="boiler-spares.jpg"><div class="card-body"><h3>Boiler Pressure Parts & Spares</h3><p>Complete range of boiler pressure parts & spares trading.</p></div></div>
+</div>
+</div>
+
+<div class="section" style="background:#fafcff;">
+<h2>Structural Steel & Tubes, Pipes</h2>
+<p class="sub">Trading & Supplier - Complete Industrial Solutions</p>
+<div class="products">
+<div class="card"><span class="badge">Trading & Supply</span><img src="steel.jpg"><div class="card-body"><h3>Structural Steel</h3><p>MS Angles, Channels, Beams, Plates, Chequered Plates trading.</p></div></div>
+<div class="card"><span class="badge">Trading & Supply</span><img src="boiler-tubes.jpg"><div class="card-body"><h3>Tubes & Pipes</h3><p>MS & SS tubes & pipes - Seamless, ERW, IBR, Non-IBR trading.</p></div></div>
+</div>
+</div>
+
+<div class="section">
+<h2>Industrial Quality Services - NDT Testing</h2>
+<p class="sub">Complete Industrial Solutions for Quality Testing</p>
+<div class="products">
+<div class="card"><span class="badge">NDT Service</span><img src="ndt-dpt.jpg"><div class="card-body"><h3>DPT - Dye Penetrant Testing</h3><p>Surface crack detection service.</p></div></div>
+<div class="card"><span class="badge">NDT Service</span><img src="ndt-mpt.jpg"><div class="card-body"><h3>MPT - Magnetic Particle Testing</h3><p>Surface & near-surface defect detection.</p></div></div>
+<div class="card"><span class="badge">NDT Service</span><img src="ndt-rt.jpg"><div class="card-body"><h3>RT - Radiographic Testing</h3><p>Internal weld defect detection.</p></div></div>
+<div class="card"><span class="badge">NDT Service</span><img src="ndt-ut.jpg"><div class="card-body"><h3>UT - Ultrasonic Testing</h3><p>Internal flaw & thickness measurement.</p></div></div>
+</div>
+</div>
+
+<div class="contact">
+<div>
+<h3>JD ENGINEERS - Trading & Supplier</h3>
+<p><strong>Complete Industrial Solutions</strong><br>27/223, New Shanti Nagar, Street No: 1-C,<br>Raipur (C.G) - 492001<br>GSTIN: 22GYJPD5126B1ZZ</p>
+<p>📞 <a href="tel:+919232590674">9232590674</a><br>✉️ <a href="mailto:jdengineers08@gmail.com">jdengineers08@gmail.com</a></p>
+</div>
+<div>
+<h3>Quick Enquiry</h3>
+<a href="https://wa.me/919232590674?text=Hello%20JD%20Engineers%20Raipur%2C%20I%20need%20quotation%20for%20Boiler%20Pressure%20Parts%20%26%20Spares" style="background:#25D366;color:#fff;padding:12px 22px;border-radius:6px;display:inline-block;text-decoration:none;font-weight:bold;">💬 WhatsApp Enquiry</a>
+</div>
+<div>
+<h3>We Deal In</h3>
+<p>Economiser • Superheater • Water Wall • Header • Evaporator • Boiler Pressure Parts & Spares • Structural Steel • Tubes & Pipes • DPT / MPT / RT / UT</p>
+</div>
+</div>
+
+<a href="https://wa.me/919232590674" class="whatsapp">💬 WhatsApp - 9232590674</a>
+
 </body>
 </html>
